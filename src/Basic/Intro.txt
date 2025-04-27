@@ -1,0 +1,20 @@
+- Typescript is strongly typed language.
+- Strongly typed languages ex - Typescript, Java, C++, Rust
+- Benefits of strongly type language:
+        1. Lesser runtime error
+        2. Stricter codebase
+        3. Easy to catch error at compile time.
+
+- People realised that javaScript is a very powerful language, but      lacks types. Typescript was inroduced as a new language to add types on top of javascript.
+
+- Typescript is a programming language developed and maintained by Microsoft.
+- It is a strict syntactical superset of Javascript and adds optional static typing to the language.
+
+- Where/How does typeScript code runs:
+    1. Typescript code never runs in your browser. Your browser can only understand javaScript.
+    2. Javascript is the runtime language (the thing that actually runds in your browser/nodejs runtime)
+    3. when Typescript is compiled down to javascript, you get type checking similar to C++. If there is an error, the conversion to javascript fails.
+
+    - Typescript compiler
+        1. tsc is the official Typescript compiler.
+        2. others - esbuild, swc

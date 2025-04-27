@@ -1,0 +1,11 @@
+Typescript provides you some basic types -
+    number, string, boolean, null, undefined.
+
+
+Q- How to give types to arguments of a function
+Ans- 
+const greet = (name: string) => console.log(`Hello ${name}`)
+
+Q- How to give a return type to a function
+Ans-
+const sum = (a: number, b: number) : number => a+b
