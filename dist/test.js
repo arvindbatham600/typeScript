@@ -1,6 +1,9 @@
 "use strict";
-const greet = (name) => console.log(`Hello ${name}`);
-// greet("john");
-const sum = (a, b) => a + b;
-const value = sum(3, "arvind");
-console.log(value);
+// create a function that takes another function as a input and runs it after 1 second.
+const doSomething = (fn) => {
+    setTimeout(fn, 2000);
+};
+const check = () => {
+    console.log("checking...");
+};
+doSomething(check);
