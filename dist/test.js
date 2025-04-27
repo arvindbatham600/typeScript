@@ -1,9 +1,12 @@
 "use strict";
-// create a function that takes another function as a input and runs it after 1 second.
-const doSomething = (fn) => {
-    setTimeout(fn, 2000);
+const maxNumber = (arr) => {
+    let max = 0;
+    arr.map((item) => {
+        if (item > max) {
+            max = item;
+        }
+    });
+    return max;
 };
-const check = () => {
-    console.log("checking...");
-};
-doSomething(check);
+const maxValue = maxNumber([1, 2, 3, 5, 6, 2]);
+console.log("max value is ", maxValue);

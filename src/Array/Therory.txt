@@ -1,0 +1,3 @@
+- If you want to access arrays in typescript, it's a siimple as adding a [] , next to the typescript
+Example - 
+const numsArray: number[] = [1,2,3,4,5]

@@ -1,0 +1,16 @@
+types are very similar to interfaces, it lets you aggregate data together.
+like 
+type User = {
+    firstName: string,
+    lastName: string,
+    age: number
+}
+
+- but with types you can do other things too
+like 
+    1. Union
+        type stringOrNumber = string | number
+    2. intersection
+        type Employee & Manager
+
+        // see Examples.ts file

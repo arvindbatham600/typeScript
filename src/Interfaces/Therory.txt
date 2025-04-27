@@ -1,0 +1,19 @@
+ How can you asign types to objects ? For Example, a user object that  looks like this -
+
+ const user = {
+    firstName: "arvind",
+    lastName: "batham",
+    email: "email.com",
+    age: "22"
+ }
+
+ to assign the type to the user object, you can use interfaces like
+ 
+ interface User = {
+    firstName: string,
+    lastName: string,
+    email: string,
+    age: number
+ }
+
+#1 - Create a function isLegal that returns true or false if a user is above 18. It takes a user as an input.
