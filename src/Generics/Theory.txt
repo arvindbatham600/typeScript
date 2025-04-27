@@ -1,0 +1,11 @@
+- Generics are language independent concepts.
+
+Lets learn by example
+    Let’s say you have a function that needs to return the first element of an array. Array can be of type either string or integer
+
+    the solution - 
+    const ReturnFirstElement = (arr: (number | string)[]) => {
+        return arr[0]
+    }
+
+    for better solution see Examples.ts file
