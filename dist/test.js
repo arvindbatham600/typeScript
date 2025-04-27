@@ -1,16 +1,2 @@
 "use strict";
-const ReturnFirstElement = (arr) => {
-    return arr[0];
-};
-// Problem in this approach is user can send the different type of inputs
-// console.log(ReturnFirstElement([1, 2, "3"]));
-// typescript isn't able to infer the right type of the return type
-const firstEl = ReturnFirstElement(["arvind", "batham"]);
-// console.log(firstEl.toUpperCase());
-// Solution - use Generic
-function getFirstElement(arr) {
-    return arr[0];
-}
-const el = getFirstElement(["harkiratSingh", 2]);
-console.log(el.toLowerCase());
-// Explanation - whatever type of array you will pass - it will create a that type of dataType
+console.log("working");
